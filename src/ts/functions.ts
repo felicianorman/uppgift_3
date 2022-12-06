@@ -1,5 +1,6 @@
 import { IMovie } from "./models/Movie";
 
+//Funktion som sorterar filmer i bokstavsordning
 export const movieSort = (movies: IMovie[], desc: boolean = true) => {
   return movies.sort((a: IMovie, b: IMovie) => {
     if (desc) {
